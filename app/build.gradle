@@ -1,12 +1,12 @@
 plugins { id 'com.android.application' }
 android {
-    namespace 'it.christian.qrwallet'
-    compileSdk 35
-    defaultConfig {
-        applicationId 'it.christian.qrwallet'
-        minSdk 23
-        targetSdk 35
-        versionCode 4
-        versionName '1.4'
-    }
+ namespace 'it.christian.qrwallet'
+ compileSdk 35
+ defaultConfig {
+  applicationId 'it.christian.qrwallet'
+  minSdk 23
+  targetSdk 35
+  versionCode 5
+  versionName '1.5'
+ }
 }

@@ -1,9 +1,9 @@
-# Q Wallet 1.4
+# Q Wallet 1.5
 
-Versione correttiva completa.
+Versione 1.5 completa.
 
-- Corretto Importa: legge direttamente il file ZIP prodotto da Esporta senza decomprimerlo.
-- Risolto l'errore `Stream Closed`: durante l'estrazione non viene più chiuso lo `ZipInputStream` dopo il primo file.
-- Ripristinato il pulsante BACK blu con testo bianco, margini e angoli arrotondati.
-- Rimossa l'immagine/schermata usata erroneamente come icona e inserita un'icona neutra Q Wallet.
-- APK prodotto da GitHub Actions: `Q-Wallet_1.4.apk`.
+- Inserita l'icona fornita dall'utente come `app_icon.png`.
+- Mantenuto il pulsante BACK blu della versione precedente.
+- Mantenuta la correzione della funzione Importa per i backup ZIP.
+- Versione applicazione: 1.5.
+- APK prodotto: `Q-Wallet_1.5.apk`.
