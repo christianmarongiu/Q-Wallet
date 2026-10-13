@@ -1,13 +1,9 @@
-# Q Wallet 1.3
+# Q Wallet 1.4
 
-App Android offline per archiviare QR Code e codici a barre.
+Versione correttiva completa.
 
-- 8 elementi iniziali, in 2 colonne
-- pulsante + per aggiungere elementi
-- label dinamiche: `N: vuoto` oppure `N: testo inserito dall'utente`
-- miniatura facoltativa
-- spunte verdi per immagini presenti
-- importazione ed esportazione completa in ZIP
-- APK prodotto: `Q-Wallet_1.3.apk`
-
-Il workflow `.github/workflows/build-apk.yml` compila automaticamente il progetto su GitHub Actions.
+- Corretto Importa: legge direttamente il file ZIP prodotto da Esporta senza decomprimerlo.
+- Risolto l'errore `Stream Closed`: durante l'estrazione non viene più chiuso lo `ZipInputStream` dopo il primo file.
+- Ripristinato il pulsante BACK blu con testo bianco, margini e angoli arrotondati.
+- Rimossa l'immagine/schermata usata erroneamente come icona e inserita un'icona neutra Q Wallet.
+- APK prodotto da GitHub Actions: `Q-Wallet_1.4.apk`.
